@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "roboto";
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url("../images/backcover.svg");
+    background-size: contain;
+    height: 97vh;
+} 
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.nav-item{
+    color: #3e4794;
+    font-size: 19px;
+}
+.logo{
+    width: 110px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+.signin-btn{
+    width: 80px;
+    height: 30px;
+    background: linear-gradient(to right, #ba55f9, #f87bf0);
+    color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    margin-right: 60px;
+
+}
+.intro-section{
+    display: flex;
+}
+.left-section{
+    margin: 95px 135px;
+}
+.left-section h1{
+    font-size: 95px;
+    color: #3e4794;
+    margin-bottom: 32px;
+}
+.left-section h4{
+    font-weight: 400;
+    color: #5f5b5bfa;
+    margin-bottom: 45px;
+    width: 400px;
+    line-height: 25px;
+}
+.learn-more-btn{
+    width: 220px;
+    height: 43px;
+    background: linear-gradient(to right, #ba55f9, #f87bf0);
+    border: none;
+    border-radius: 60px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 65px;
+}  
+.learn-more-btn:hover{
+    background: linear-gradient(to right, #a629f4, #f962ef);
+} 
+.vector-img{
+    width: 5%;
+    position: fixed;
+    z-index: 1;
+    top: 65%;
+    right: 55%;
+}
+
+.vector-dot{
+    width: 50%;
+    color: #dd6de5;
+    z-index: -10;
+    opacity: 0.5;
+    position: fixed;
+    top: -500px;
+    right: -125px;
+}
